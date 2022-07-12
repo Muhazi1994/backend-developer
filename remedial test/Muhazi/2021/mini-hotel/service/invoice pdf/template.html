@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>INVOICE</title>
+  </head>
+  <body>
+    <h1>Order List</h1>
+    <ul>
+      {{#each orders}}
+      <!-- users = array -->
+      <li>Item: {{this.item}}</li>
+      <li>Quantity: {{this.quantity}}</li>
+      <li>Price: {{this.price}}</li>
+      <br />
+      {{/each}}
+    </ul>
+  </body>
+</html>

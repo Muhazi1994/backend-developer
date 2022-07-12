@@ -1,0 +1,23 @@
+HTTP METHOD
+url
+
+GET PUT POST DELETE
+/url -> access to recource (database)
+
+GET /users?sortby[id]=asc&age[gte]=17
+
+GET /user/:id           ||  GET /user?id=1
+DELETE /user/:id        ||  DELETE /user/?id=1      || DELETE /user -> with body { "id":1 }
+PUT /user/:id -> with body { "name": "ck" }
+POST /user -> with body { "name": "new user" }
+
+==== try to avoid verbs on your routesss ====
+POST /user/create
+PUT /user/:id/update
+DELETE /user/:id/delete
+
+// get user
+// include foregn key 
+// include company
+// asosiasi
+//

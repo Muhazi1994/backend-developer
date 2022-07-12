@@ -1,0 +1,158 @@
+{
+  "students": [{
+      "id": 1,
+      "name": "Aini",
+      "status": "murid kurang ajar",
+      "perk": "bisa membantu menerangkan ke temannya sehingga mas Yogie jadi gaji buta"
+    },
+    {
+      "id": 2,
+      "name": "Destin",
+      "status": "murid tapi kagak jadi belajar karena ketiduran",
+      "perk": "ngantukan tapi tetep semangat belajar"
+    },
+    {
+      "id": 3,
+      "name": "Tiasa",
+      "status": "murid tapi suka pake filter badut",
+      "perk": "filternya banyak kek instagram coy"
+    },
+    {
+      "id": 4,
+      "name": "Zain",
+      "status": "murid tapi suka ama istri dajjal",
+      "perk": "ya allah semoga cepat sadar"
+    },
+    {
+      "id": 5,
+      "name": "Reza",
+      "status": "murid tapi impostor",
+      "perk": "penyusup dari kelas mas Delarta"
+    },
+    {
+      "name": "channy",
+      "status": "ggwp",
+      "perk": "suhu",
+      "id": 6
+    },
+    {
+      "name": "Dajjal",
+      "status": "detektip tapi kok bunuh diri",
+      "perk": "kagak tau",
+      "id": 7
+    }
+  ],
+  "todo": [{
+      "id": 1,
+      "task": "menulis buku",
+      "isCompleted": true
+    },
+    {
+      "id": 2,
+      "task": "mengambil bulu sebatang",
+      "isCompleted": true
+    },
+    {
+      "id": 3,
+      "task": "mencuri hati si dia",
+      "isCompleted": true
+    },
+    {
+      "id": 4,
+      "task": "memukul pohon pisang hingga tumbang",
+      "isCompleted": true
+    },
+    {
+      "id": 6,
+      "task": "memesan shopee food",
+      "isCompleted": true
+    }
+  ],
+  "movies": [{
+      "id": 1,
+      "title": "Fast and Furious 9",
+      "picture": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fwww.socialnews.xyz%2Fwp-content%2Fuploads%2F2020%2F01%2F30%2FF9-Fast-and-Furious-9-The-Fast-Saga-Movie-Latest-Group-HD-Poster--scaled.jpg%3Ffit%3D1617%252C2560%26quality%3D90%26zoom%3D1%26ssl%3D1&f=1&nofb=1",
+      "actors": [
+        "Vin Diesel",
+        "John Cena",
+        "Michelle Rodriguez"
+      ],
+      "released_year": 2021,
+      "budget": "100 million usd",
+      "rating": 10
+    },
+    {
+      "id": 2,
+      "title": "Venom 2",
+      "picture": "https://upload.wikimedia.org/wikipedia/en/a/a7/Venom_Let_There_Be_Carnage_poster.jpg",
+      "actors": [
+        "Tom Hardy",
+        "Woody Harrelson",
+        "Naomie Harris"
+      ],
+      "released_year": 2021,
+      "budget": "60 million usd",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "title": "Anjing Liar Dongo",
+      "picture": "https://upload.wikimedia.org/wikipedia/en/6/6a/OsamuDazaiBungo.png",
+      "actors": [
+        "Yūto Uemura",
+        "Mamoru Miyano",
+        "Yoshimasa Hosoya"
+      ],
+      "released_year": 2016,
+      "budget": "10 ribu rupiah",
+      "rating": 1
+    },
+    {
+      "title": "Eternals",
+      "picture": "https://droidjournal.com/wp-content/uploads/2020/11/622BE708-FD63-494B-B6B6-C517238AB03E.jpeg",
+      "actors": [
+        "Angelina Jolie"
+      ],
+      "released": "2021",
+      "budget": "100 million",
+      "rating": "7",
+      "id": 4
+    },
+    {
+      "title": "John Wick 4",
+      "picture": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmir-s3-cdn-cf.behance.net%2Fproject_modules%2F1400%2F6aec1a106199299.5f8a325998dca.jpg&f=1&nofb=1",
+      "actors": [
+        "Keanu Reeves"
+      ],
+      "released": "2022",
+      "budget": "100 million",
+      "rating": "11",
+      "id": 5
+    }
+  ],
+  "comic": [{
+    "id": 1,
+    "image": "https://www.dcplanet.fr/wp-content/uploads/2016/08/Review-RHATO-1-1.jpg",
+    "name": "Red Hood and The Outlaws",
+    "price": "5$",
+    "year": 2016,
+    "genre": "adventure",
+    "writer": "Dexter Soy"
+  }, {
+    "id": 2,
+    "image": "https://1.bp.blogspot.com/-fji987QMQ7c/Xc4tuWbGW7I/AAAAAAAAu8I/qXBDVqEVr6Q1GVDUs1yg45Tny7ZmHty3gCLcBGAsYHQ/s1600/DCEASED_Unkillables_Cv2_Main.jpg",
+    "name": "Dceased Unkillables",
+    "price": "7$",
+    "year": 2020,
+    "genre": "horror",
+    "writer": "Tom Taylor"
+  }, {
+    "id": 3,
+    "image": "https://covrprice.com/wp-content/uploads/2021/10/Task-Force-Z-1-1300044.jpg",
+    "name": "Task Force Z",
+    "price": "6$",
+    "year": 2021,
+    "genre": "action",
+    "writer": "Matthew Rosenberg "
+  }]
+}

@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "name": "Gerry",
+            "age": 25,
+            "gender": "male",
+            "isVerified": true,
+            "createdAt": "2021-01-01"
+        },
+        {
+            "name": "Luigi",
+            "age": 24,
+            "gender": "female",
+            "isVerified": false,
+            "createdAt": "2020-02-02"
+        },
+        {
+            "name": "muhazi",
+            "age": 17,
+            "gender": "male",
+            "isVerified": false,
+            "createdAt": "2019-09-09"
+        },
+        {
+            "name": "Wijaya",
+            "age": 21,
+            "gender": "male",
+            "isVerified": true,
+            "createdAt": "2021-10-01"
+        },
+        {
+            "name": "falah",
+            "age": 29,
+            "gender": "male",
+            "isVerified": false,
+            "createdAt": "2019-01-01"
+        },
+        {
+            "name": "Bobs",
+            "age": 31,
+            "gender": "male",
+            "isVerified": true,
+            "createdAt": "2020-03-03"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+node_modules
+.env.development
+.env.test
+.env.production
+<<<<<<< HEAD:Cravyng/.gitignore
+ public
+=======
+
+>>>>>>> ac876cab3e0fba7b3b255e1a02408d6e65215134:.gitignore

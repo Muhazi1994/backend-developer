@@ -1,0 +1,17 @@
+.details-container {
+    ul {
+        list-style: none;
+    }
+
+    li::before {
+        content: "X";
+        margin-right: 0.5em;
+        color: red;
+    }
+
+    li::after {
+        content: "X";
+        margin-left: 0.5em;
+        color: green;
+    }
+}

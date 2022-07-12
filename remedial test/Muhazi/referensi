@@ -1,0 +1,22 @@
+Nushair Falah8:34 PM
+https://gitlab.com/backend-glints15/oop-assignment-week-3-day-12
+boby samuel8:35 PM
+inheritance
+polymorphism
+boby samuel8:42 PM
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS
+Pranidya Luigi8:44 PM
+over ridding method
+over loading method
+boby samuel8:45 PM
+https://www.geeksforgeeks.org/overriding-in-java/
+https://www.geeksforgeeks.org/function-overloading-in-javascript/
+boby samuel9:14 PM
+https://www.w3schools.com/js/js_object_constructors.asp
+boby samuel9:55 PM
+https://dev.to/bhagatparwinder/classes-in-js-public-private-and-protected-1lok
+[IB15] Office Hours - BE (Bobi)
+
+
+
+npx sequelize model:generate --name customer --attributes name:string,email:string,phone:string

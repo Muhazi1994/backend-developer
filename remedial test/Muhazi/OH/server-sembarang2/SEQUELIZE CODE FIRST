@@ -1,0 +1,46 @@
+server application -------------------------------- database
+                            _sequelize_ 
+                    ORM: Object relation(al) Mapping
+
+
+folder model: interface / mapper dari database ke javascript
+folder migration: interface / mapper dari js ke database
+folder config: connection string ke database
+
+migration flow (background process):
+    - create table SequelizeMeta di database (KALO BELUM ADA)
+    - cek if migration file exist di table SequelizeMeta
+    - if migration file not exist, do these:
+        - insert nama migration file ke SequelizeMeta
+        - create table di DB, berdasarkan definisi di migration file
+
+
+common model.query:
+    - create (insert into table ...)
+    - update (update table set ....)
+    - findOne (select ... from table ... limit 1)
+    - findAll (select ... from table ...)
+    - destroy (delete from ...)
+    - findAndCountAll() -> untuk pagination
+    semua bisa dipakein where
+
+
+
+in order to use option "include" (join statement) to your sequelize query, associations between tables must me made!!!
+sequelize model association (common): see table user and job for example
+    - belongsTo
+    - hasMany
+    - hasOne
+
+if you want to join tables but don't want to set associations, you can use traditional raw query instead. google: "sequelize raw query"
+
+
+query options: 
+    - where
+    - attributes
+
+
+
+middleware as:
+    - validator
+    - err handler

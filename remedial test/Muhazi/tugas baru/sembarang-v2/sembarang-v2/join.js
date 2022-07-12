@@ -1,0 +1,1 @@
+console.log ('jadi pemimpin');

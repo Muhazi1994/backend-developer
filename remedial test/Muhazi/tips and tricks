@@ -1,0 +1,128 @@
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru$ node muhazi-2.js
+internal/modules/cjs/loader.js:800
+    throw err;
+    ^
+
+Error: Cannot find module '/home/elsaputra/Desktop/tugas baru/muhazi-2.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1047:10)
+    at internal/main/run_main_module.js:17:11 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru$ ls
+comment.js  day#5  functions.js  jack5  numberAndoperation.js  tugasWeek1.js
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru$ cd day#5br
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru/day#5$ node muhazi-2.js
+[Function: slice]
+lima enam tujuh delapan sembilan sepuluh
+{ date: 2, data: 'Glints academy start' }
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru/day#5$ git add .
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru/day#5$ git branch
+* master
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru/day#5$ git remote
+origin
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru/day#5$ git remote -v
+origin  git@gitlab.com:muhazisayapkiripmii/merdeka-belajar.git (fetch)
+origin  git@gitlab.com:muhazisayapkiripmii/merdeka-belajar.git (push)
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru/day#5$ cd ..
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru$ git clone
+fatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recursive ...       alias of --recurse-submodules
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    --server-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --filter <args>       object filtering
+    --remote-submodules   any cloned submodules will use their remote-tracking branch
+    --sparse              initialize sparse-checkout file to include only files at root
+
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru$ git clone git@gitlab.com:adiraffael/sembarang-v2.git
+Cloning into 'sembarang-v2'...
+remote: Enumerating objects: 131, done.
+remote: Counting objects: 100% (131/131), done.
+remote: Compressing objects: 100% (69/69), done.
+remote: Total 131 (delta 54), reused 126 (delta 49), pack-reused 0
+Receiving objects: 100% (131/131), 15.17 KiB | 3.03 MiB/s, done.
+Resolving deltas: 100% (54/54), done.
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru$ ls
+comment.js  day#5  functions.js  jack5  numberAndoperation.js  sembarang-v2  tugasWeek1.js
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru$ cd sembarang-v2
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru/sembarang-v2$ git remote -v
+origin  git@gitlab.com:adiraffael/sembarang-v2.git (fetch)
+origin  git@gitlab.com:adiraffael/sembarang-v2.git (push)
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru/sembarang-v2$ git checkout -b muhazi-2
+Switched to a new branch 'muhazi-2'
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru/sembarang-v2$ git add .
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru/sembarang-v2$ git commit -m "Add Glints"
+On branch muhazi-2
+nothing to commit, working tree clean
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru/sembarang-v2$ git push origin muhazi-2
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: To create a merge request for muhazi-2, visit:
+remote:   https://gitlab.com/adiraffael/sembarang-v2/-/merge_requests/new?merge_request%5Bsource_branch%5D=muhazi-2
+remote: 
+To gitlab.com:adiraffael/sembarang-v2.git
+ * [new branch]      muhazi-2 -> muhazi-2
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru/sembarang-v2$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru/sembarang-v2$ git add .
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru/sembarang-v2$ git commit -m "Add Glints"
+[muhazi-2 a2b7f8b] Add Glints
+ 1 file changed, 36 insertions(+)
+ create mode 100644 muhazi-2.js
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru/sembarang-v2$ git push origin muhazi-2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 542 bytes | 542.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: 
+remote: To create a merge request for muhazi-2, visit:
+remote:   https://gitlab.com/adiraffael/sembarang-v2/-/merge_requests/new?merge_request%5Bsource_branch%5D=muhazi-2
+remote: 
+To gitlab.com:adiraffael/sembarang-v2.git
+   0309529..a2b7f8b  muhazi-2 -> muhazi-2
+elsaputra@elsaputra-ThinkPad-T450s:~/Desktop/tugas baru/sembarang-v2$ 

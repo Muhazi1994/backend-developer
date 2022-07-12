@@ -1,0 +1,48 @@
+{
+  "name": "day-20",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development npx nodemon index",
+    "test": "jest --coverage"
+  },
+  "engines": {
+    "node ": "14.18.0"
+  },
+  "author": "gerry",
+  "license": "MIT",
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.3.0",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.27.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "file-upload": "0.0.0",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mysql2": "^2.3.2",
+    "postgre": "^0.1.8",
+    "sequelize": "^6.9.0",
+    "validate-date": "^2.0.0",
+    "validator": "^13.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/gerryajie/finish-project.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/gerryajie/finish-project/issues"
+  },
+  "homepage": "https://gitlab.com/gerryajie/finish-project#readme",
+  "description": ""
+}

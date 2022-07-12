@@ -1,0 +1,25 @@
+{
+  "name": "mongooh",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development npx nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/boby.samuel/mongooh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/boby.samuel/mongooh/issues"
+  },
+  "homepage": "https://gitlab.com/boby.samuel/mongooh#readme",
+  "dependencies": {
+    "cookieparser": "^0.1.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}

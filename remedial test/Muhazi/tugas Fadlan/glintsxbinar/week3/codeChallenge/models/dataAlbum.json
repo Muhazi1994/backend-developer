@@ -1,0 +1,38 @@
+[
+  {
+    "serialNumber": 1001,
+    "name": "Blackpink in Your Area",
+    "artist": "Blackpink",
+    "year": 2018
+  },
+  {
+    "serialNumber": 1002,
+    "name": "The Album",
+    "artist": "Blackpink",
+    "year": 2020
+  },
+  {
+    "serialNumber": 1003,
+    "name": "The Fifth Season",
+    "artist": "Oh My Girl",
+    "year": 2018
+  },
+  {
+    "serialNumber": 1004,
+    "name": "My Voice",
+    "artist": "Kim Taeyeon",
+    "year": 2017
+  },
+  {
+    "serialNumber": 1005,
+    "name": "Purpose",
+    "artist": "Kim Taeyeon",
+    "year": 2019
+  },
+  {
+    "serialNumber": 1006,
+    "name": "Oh!",
+    "artist": "Girls Generation",
+    "year": 2011
+  }
+]

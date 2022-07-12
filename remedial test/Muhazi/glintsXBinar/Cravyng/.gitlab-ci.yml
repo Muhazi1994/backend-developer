@@ -1,0 +1,45 @@
+# You can override the included template(s) by including variable overrides
+# SAST customization: https://docs.gitlab.com/ee/user/application_security/sast/#customizing-the-sast-settings
+# Secret Detection customization: https://docs.gitlab.com/ee/user/application_security/secret_detection/#customizing-settings
+# Dependency Scanning customization: https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#customizing-the-dependency-scanning-settings
+# Note that environment variables can be set in several places
+# See https://docs.gitlab.com/ee/ci/variables/#cicd-variable-precedence
+# stages:
+# - test
+# sast:
+#   stage: test
+# include:
+# - template: Security/SAST.gitlab-ci.yml
+
+# We will try to use machine (Linux) that includes node.js (temporary)
+image: node:latest
+
+stages:
+  - test 
+  - staging
+
+test:
+  type: test
+  stage: test
+  services:
+    - mysql:latest # Add postgres service in Gitlab to test the code
+  script:
+    - npm i
+    # - npx sequelize db:create
+    # - npx sequelize db:migrate
+    # - npx sequelize db:seed:all
+    - npm run test # It will run test in Gitlab before it upload to heroku
+  only:
+    - Menu/Agif
+
+staging:
+  type: deploy
+  stage: staging
+  image: ruby:3 # Using ruby image to deploy to heroku
+  script:
+    # dpl is package to deploy to heroku
+    - gem install dpl
+    - dpl --provider=heroku --app=$HEROKU_APP_STAGING --api-key=$HEROKU_API_KEY
+  only:
+    - Menu/Agif
+

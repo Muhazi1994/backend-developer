@@ -1,0 +1,19 @@
+// docker
+// chache - reids
+// microservice
+// boby samuel9:28 PM
+// login with social media account using passport.js
+// one time token using jwt
+
+//paraphrase
+// passwordpasswrd
+// this is my password
+
+// websocket
+// pub sub
+// redis
+// scheduling
+
+cron
+sql optimization
+sql indexing
